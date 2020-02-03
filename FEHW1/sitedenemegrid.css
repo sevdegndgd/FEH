@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+   display: grid;
+   grid-template-areas:
+   "header"
+   "content"
+   "footer";
+   height: 1500px;
+   grid-template-rows: 100px 1fr 300px;
+}
+div {
+    background-color: lightgray;
+    border: thin solid black;
+}
+#header {
+    grid-area: header;
+    display: flex;
+    background: url(images/logo.png) no-repeat 45vw center white;
+    background-size: 9%; 
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    align-items: flex-center;
+    justify-content: space-between;
+    padding: 3em 10%;
+    border: none;
+   
+}
+#header > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-right: 3vw;
+    margin-left: 0.1vw;
+}
+
+
+#header > ul li {
+    margin: 0.1em;
+    font-size: 12px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    color:grey
+}
+
+#header a:hover{
+    color: indigo;
+}
+#header > ol {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-right: 2vw;
+    margin-left: 3pw;
+    font-size: 12px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+    grid-area: content; 
+    display: grid;
+    grid-template-rows: 4fr 8fr;
+}
+
+
+.article {
+    display: grid;
+    grid-template:
+    "side content content" 3fr
+    "side content content" 5fr
+    "side content content" 3fr
+    / 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+
+.article > div {
+    border: none;
+    background-color: whitesmoke;
+}
+
+
+#footer {
+    grid-area: footer;
+    display: grid;
+    grid-template:
+    "footer footer footer" 2fr
+    "cr cr cr" 1fr
+    /1fr 1fr 1fr;
+}
+/* .footerBox{
+    grid-area: footer;
+} */
+
+.copyRightBox {
+    grid-area: cr ;
+    text-align: center;
+}  
+
+.article > div:nth-child(1) {
+    grid-row: 1 /span 2;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: none;
+}
+.introKapsayici {
+    flex: 0 0 30%;
+    border: none;
+    margin-left: 5vw;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.intro:before{
+    content: ' ';
+    background: url(images/lavender.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.introKapsayici h5{
+    display: block;
+    background-color: rebeccapurple;
+    width: 9rem;
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.introKapsayici h5:hover{
+    color: thistle;
+}
+ .introKapsayici h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: slateblue;
+ }
+
+ .introKapsayici p{
+     color: black;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 1.2rem;
+ }
+
+ .introKapsayici a.btn {
+     display: block;
+     width: 6rem;
+     background: thistle;
+     text-align: center;
+     color: black;
+     text-decoration: dashed;
+     opacity: 0.5;
+     font-family: 'Quicksand', sans-serif;
+     font-size: .75rem;
+     padding: 0.25rem;
+     margin-top: 0.5rem;
+     align-self: center;
+     margin-right: 5rem;
+ }
+
+ .menuTitle {
+    display: block;
+    background-color: rebeccapurple;
+    width: 9rem;
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: whitesmoke;
+    opacity: 0.5;
+    text-align: center;
+    
+ }
+
+ .menuBoxKapsayici {
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+ }
+    
+    
+
+
+
+
