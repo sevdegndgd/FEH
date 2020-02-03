@@ -218,7 +218,6 @@ a {
     list-style-type: none;
     border: none;
     margin: 1rem;
-  
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
     font-size: 45px;
@@ -261,7 +260,7 @@ a {
     text-decoration: dashed;
     opacity: 0.5;
     font-family: 'Quicksand', sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
     padding: 0.25rem;
     margin-top: 0.5rem;
     align-self: center;
@@ -334,7 +333,7 @@ a {
     text-decoration: dashed;
     opacity: 0.5;
     font-family: 'Quicksand', sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
     padding: 0.25rem;
     margin-bottom: 2rem;
     margin-left : 10rem;
@@ -381,7 +380,7 @@ a {
     text-decoration: dashed;
     opacity: 0.5;
     font-family: 'Quicksand', sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
     padding: 0.25rem;
     margin-bottom: 2rem;
     
