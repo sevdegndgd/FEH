@@ -163,15 +163,18 @@ a {
     font-weight: bolder;
     font-size: 1rem;
     color: whitesmoke;
+    
 }
 .introKapsayici h5:hover{
     color: thistle;
+    
 }
  .introKapsayici h3{
     font-family: 'Hind', sans-serif;
     font-weight: bolder;
     font-size: 2rem;
     color: slateblue;
+    
  }
 
  .introKapsayici p{
@@ -192,8 +195,8 @@ a {
      font-size: .75rem;
      padding: 0.25rem;
      margin-top: 0.5rem;
-     align-self: center;
-     margin-right: 5rem;
+     
+     
  }
 
  .article .contentBox h5 {
@@ -299,21 +302,25 @@ a {
     color: whitesmoke;
     opacity: 0.5;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 9rem;
+    
+
 }
 
 .article .contentBox3 h3{
     font-size: 1.5rem;
     font-family: 'Hind', sans-serif;
     margin: 1rem 1rem;
-   
-
-
+    align-content: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
  }
+
  .article .contentBox3 p{
     font-size: 1.2rem;
     font-family: 'Hind', sans-serif;
     margin-left: 1rem;
+    
  }
 .article .contentBox3 a.btn {
     display: block;
@@ -327,8 +334,7 @@ a {
     font-size: .75rem;
     padding: 0.25rem;
     margin-bottom: 2rem;
-    align-self: center;
-    margin-left : 1rem;
+    margin-left : 10rem;
 }
 
 .article .contentBox4 img{
@@ -340,15 +346,18 @@ a {
 .article .contentBox4 {
     background-color: white;
     border: none;
-
+}
+.article .contentBox4 h5{
+    margin: 1rem
 }
 .article .contentBox4 .psBoxKapsayici {
     background: none;
     border: none;
 }
 
+
 #footer {
-    background: url(images/logo.png) no-repeat 45vw center white;
+    background: url(images/logomobile.png) no-repeat 45vw center white;
     border: none;
     background-size: 15%; 
     position: sticky;
@@ -362,6 +371,9 @@ a {
     border: none;
     margin-left: 5vw;
     align-items: center;
+    padding-top: 3rem;
+    font-size: 0.75rem;
+
 }
 
 
