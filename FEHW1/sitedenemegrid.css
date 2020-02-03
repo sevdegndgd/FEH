@@ -54,7 +54,7 @@ div {
 
 a {
     text-decoration: none;
-    color:grey
+    color:grey;
 }
 
 #header a:hover{
@@ -218,6 +218,7 @@ a {
     list-style-type: none;
     border: none;
     margin: 1rem;
+    padding-top: 1em;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
     font-size: 45px;
@@ -226,9 +227,11 @@ a {
     
     
  }
+ 
  .article a{
      font-size: 1rem;
      padding-top: 30px;
+     display: block;
      
      
  }
