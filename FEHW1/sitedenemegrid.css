@@ -360,8 +360,8 @@ a {
 .copyRightBox{
     background-color: white;
     border: none;
-    margin-left: 5vw
-  
+    margin-left: 5vw;
+    align-items: center;
 }
 
 
