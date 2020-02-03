@@ -339,20 +339,49 @@ a {
 
 .article .contentBox4 img{
     height: 250px;
-    margin: 2rem;
-    width: 350px;
+    margin: 1rem;
+    width: 375px;
 
 }
 .article .contentBox4 {
     background-color: white;
     border: none;
 }
-.article .contentBox4 h5{
-    margin: 1rem
-}
+
 .article .contentBox4 .psBoxKapsayici {
     background: none;
     border: none;
+    display:flex;
+    flex-direction: column;
+}
+
+.article .contentBox4 h5{
+    display: block;
+    background-color: rebeccapurple;
+    width: 9rem;
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: whitesmoke;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 9rem;
+}
+
+.article .contentBox4 a.btn {
+    display: block;
+    width: 6rem;
+    background: thistle;
+    text-align: center;
+    color: black;
+    text-decoration: dashed;
+    opacity: 0.5;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .75rem;
+    padding: 0.25rem;
+    margin-bottom: 2rem;
+    margin-left : 10rem;
 }
 
 
