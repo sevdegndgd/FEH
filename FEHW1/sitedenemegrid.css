@@ -333,8 +333,40 @@ a {
 
 .article .contentBox4 img{
     height: 250px;
-    margin: 1rem;
+    margin: 2rem;
+    width: 350px;
+
 }
+.article .contentBox4 {
+    background-color: white;
+    border: none;
+
+}
+.article .contentBox4 .psBoxKapsayici {
+    background: none;
+    border: none;
+}
+
+#footer {
+    background: url(images/logo.png) no-repeat 45vw center white;
+    border: none;
+    background-size: 15%; 
+    position: sticky;
+    align-items: flex-center;
+    margin-bottom: 7rem;
+    border: none;
+}
+
+.copyRightBox{
+    background-color: white;
+    border: none;
+    margin-left: 5vw
+  
+}
+
+
+    
+
     
     
     
