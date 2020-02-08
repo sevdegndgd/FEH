@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+}
+*,*:after,*:before {
+    box-sizing: inherit;
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+.bg{
+    background-image: url(images/articles/artic11.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.nav-area{
+    width: 240px;
+    list-style: none;
+    padding-top: 10px;
+    display: inline-block
+
+
+}
+
+.nav-area h3{
+    text-align:center;
+    padding-top: 15px;
+    color: darkgray;
+    text-align: center;
+    margin-bottom: .5rem;
+    
+
+}
+.nav-area li{
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 175px;
+    background-color: whitesmoke;
+    
+
+}
+
+.nav-area li a{
+    color: darkgray;
+    padding:10px;
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-area li a:hover{
+    color: darkolivegreen;
+}
+
+.nav-area li.item {
+    transition: all 0.5s ease-in-out;
+
+}
+
+.nav-area li.item:hover {
+    tranform: translateX(30px);
+
+}

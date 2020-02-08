@@ -1,0 +1,38 @@
+<body>
+  
+
+        
+        
+    <img src="images/articles/artic5.jpeg" id="photoList">
+    <img src="images/articles/artic6.jpg" id="photoList">
+    <img src="images/articles/artic7.jpg" id="photoList">
+    <img src="images/articles/artic8.jpg" id="photoList">
+    <img src="images/articles/artic9.jpg" id="photoList">
+    <img src="images/articles/artic10.jpg" id="photoList">
+    <img src="images/articles/artic11.jpg" id="photoList">
+
+    
+
+    #photoList{
+        display: grid;
+        grid-gap:0.8em;
+        grid-template-rows:minmax(150px, 1fr);
+        grid-auto-flow: column;
+        overflow-x: scroll;
+        scroll-snap-type: proximity;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .imageItem{
+        width: 10em;
+        height: 10em;
+        display: block;
+        margin: auto;
+        cursor: pointer;
+    }
+    </div>
+</body>
+<ul>
+    <li></li>
+</ul>
