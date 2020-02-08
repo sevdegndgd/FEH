@@ -404,7 +404,7 @@ body {
     font-size: 0.75rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 969px) {
     body {
     width:500px;
 	height:400px;
