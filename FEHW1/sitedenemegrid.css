@@ -449,7 +449,14 @@ body {
 
 	.navigation a {
 		text-decoration: none;
-	}
+    }
+    
+    .contentBox {
+        width: 100%;
+    }
+    .contentBox3 {
+        width: 100%;
+    }
 }​
 
     
