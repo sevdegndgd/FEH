@@ -243,6 +243,26 @@ body {
      background: none;
     
  }
+ /* .photoList{
+    display: grid;
+    grid-gap:0.8em;
+    grid-template-rows: minmax(150px, 1fr);
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    scroll-snap-type-x: proximity;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.image-item{
+    width: 10em;
+    height: 10em;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+} */
+
+
 
  .article a.btn {
     display: block;
@@ -404,7 +424,9 @@ body {
     font-size: 0.75rem;
 }
 
-@media only screen and (max-width: 969px) {
+
+
+@media only screen and (max-width: 786px) {
     body {
     width:500px;
 	height:400px;
@@ -442,7 +464,7 @@ body {
 	}
 
 	.navigation ul li {
-		display: inline-block;
+		display: block;
 		list-style: none;
 		padding: .36em 0.9375em;
 	}
@@ -457,11 +479,16 @@ body {
     .contentBox3 {
         width: 100%;
     }
+    .copyRightBox {
+        width: 100%;
+        display: block;
+    }
+
 }​
 
     
 
-} 
+
 
 
     
