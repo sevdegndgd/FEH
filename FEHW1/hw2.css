@@ -1,0 +1,54 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after, * ::before{
+    background-origin: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rosybrown;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    justify-content: center;
+    background-color: rosybrown;
+    margin: 4em;
+    position: relative;
+    z-index: 1;
+    
+}
+.box {
+    margin: 2.5%;
+    width: 20.4vw;
+    height: 20.4vw;
+    border-width: 0.5px; 
+    border-style: solid;
+    border-color:black;
+    border-radius: 10%;
+    overflow: hidden; 
+    background-color: rosybrown;
+    
+
+ }
+ 
+.box img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    display: block;
+    /* margin: auto; */
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    filter: sepia();
+   
+    
+    
+}
+
+.box img:hover {
+    transform: scale(1.40);
+    filter: contrast();
+}
