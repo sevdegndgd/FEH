@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+<form action="/sign-in-url" method="GET">
+    <label for="first">First Name:</label>
+    <input name="first" id="first" type="text" placeholder="FirstName" required>
+    <label required for="last">Last Name:</label>
+    <input for ="last" id="last" type="text" placeholder="LastName"required>
+<p>
+    <label for="female">Female</label>
+    <input id="female" name="gender"type="radio" value="female">
+    <label for="male">Male</label>
+    <input id="male" name="gender"type="radio" value="male">
+    <label for="notpref"></label>
+    <input id="notpref"name="gender"type="radio" value="not pref">
+</p> 
+<input type="submit">
+<div>
+<label> Email Address:
+<input name="email" type="email" placeholder="your email" required></label>
+<label>
+    Password:
+<input name="password" type="password" pattern=".{5,10}" placeholder="your password"required title="Password must be 5 to 10 character"></label>
+</div>
+<div>
+    <select>
+        <label for="">
+        <option value=""></option>
+        </label>
+    </select>
+</div>
+
+</form>
+    
+</body>
+</html>
