@@ -138,7 +138,7 @@ i.fas {
     font-size: 15px;
     
 }
-.section1 {
+.part1 {
     margin-top: 25px;
     margin-bottom: 10px;
 }
@@ -204,13 +204,13 @@ i.fas {
 .red {
     background-color: #fe4663;
 }
-.big-inbox {
+.bigInbox {
     font-size: 20px;
     font-weight: 400 bold;
     padding-top: 10px;
     
 }
-.right-side {
+.rightSide {
     background-color: #f2f3f7;
     width:  100%;
     padding: 8px 30px;
@@ -223,24 +223,24 @@ i.fas {
     overflow: hidden;
     
 }
-.top-bar {
+.top {
     display: flex;
     align-items: center;
     text-align: center;
 }
-.top-bar-justify {
+.top-justify {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.top-bar-items {
+.top-items {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 180px;
+    width: 160px;
 }
 .icon-adi5 {
-    font-size: 13px;
+    font-size: 14px;
     color: grey;
     padding-top: 25px;
 }
@@ -276,9 +276,9 @@ i.fas {
     background-color: white;
 }
 .new {
-    border-radius: 4px;
+    border-radius: px;
     border: none;
-    width: 40px;
+    width: 35px;
     height: 30px;
     background-color: #edeef5;
 }
@@ -309,7 +309,7 @@ i.fas {
 .text {
     border: 1px solid #ddd;
     border-radius: 4px;
-    width: 280px;
+    width: 260px;
     height: 30px;
     background-color: #edeef5;
   }
@@ -326,18 +326,18 @@ i.fas {
 }
   
 .scroll-cards {
-    width: 370px;
+    width: 350px;
     height: 100%;
     overflow: auto;
-    padding: 20px 0px 5px 0px;
+    padding: 10px 0px 5px 0px;
 }
 .card {
     background-color: white;
     border-radius: 4px;
-    margin-top: 8px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 7px;
     padding: 25px 25px 15px 25px;
-    transition: 0.3s;
+    transition: 0.4s;
     
 }
 .card:hover {
