@@ -1,0 +1,38 @@
+/* $stripe-color: lighten (rgb(34, 133, 172), 10%)
+$stripe-background: yellow;
+$stripe-size: 250px;
+
+$ball-color: black; */
+
+html {box-sizing: border-box;}
+
+*,*:after,*before {
+    box-sizing: inherit;
+}
+
+body {
+    background:
+     linear-gradient(135deg, $stripe-color 25%, transparent 25%) ($stripe-size / 2 * -1) 0,
+     linear-gradient(225deg, $stripe-color 25%, transparent 25%) ($stripe-size / 2 * -1) 0,
+     linear-gradient(315deg, $stripe-color 25%, transparent 25%),
+     linear-gradient(45deg, $stripe-color 25%, transparent 25%),
+     
+     background-size: $stripe-size $stripe-size,
+     background-color: %stripe-background;    
+    
+
+.ball {
+  opacity: .75;
+
+  &:before, &:after {
+    animation: .8s ease-in-out alternate infinite;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right:0;
+
+
+}

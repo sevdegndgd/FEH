@@ -41,13 +41,17 @@
 
 .wrapper .fas {
     color: whitesmoke;
+    padding-top: 25px;
     
 }
-
-i.fas {
-    padding-top: 25px;
+.icon-adi{
+    padding-bottom: 25px;
+}
+.icon-adi1{
+    padding-bottom: 25px;
+}
+.icon1 {
     color: teal;
-
 }
 
 .items {
